@@ -32,10 +32,10 @@ function drawMarkers(data) {
         var markup = 
             
             "<span class='location'>"+location+"</span><br>"+
-            "<span class='photo'>"+photo+"</span><br><br>"+
+            "<span class='photo'><center>"+photo+"</center></span><br>"+
             "<span class='innertext'>"+text+ " — "+name+"</span><br><br>"+
-            "<span class='video'>"+video+"</span><br><br>"+
-            "<span class='audio'>"+audio+"</span><br><br>";
+            "<span class='video'>"+video+"</span>"+
+            "<span class='audio'>"+audio+"</span>";
 
         
         var popupOptions = {
@@ -47,6 +47,7 @@ function drawMarkers(data) {
         .bindPopup(markup, popupOptions)
         .openPopup();
     }
+
 }
 
 

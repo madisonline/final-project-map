@@ -11,26 +11,34 @@
 
 .header {
     font-family: 'PT Serif', serif;
-    font-size: 70px;
+    font-size: 45px;
     font-weight: bold;
     margin: 5px;
 }
 
-.text, .byline {
-    font-family: "Georgia";
-}
 
 .byline {
-    margin: -10px;
+    margin: 10px;
+    font-family: Arial;
+    font-size: 11px;
+    letter-spacing: 1px;
 }
 
 .text {
     margin: 10px;
+    font-family: "Georgia";
+    font-size: 16px;
 }
 
 .innertext {
-    font-family: "Georgia";
-    font-size: 12px;
+    font-family: 'Roboto', serif;
+    font-size: 14px;
+}
+
+.dek {
+    font-family: 'Roboto', serif;
+    font-size: 14px;
+    color: #818285;
 }
 
 
@@ -46,5 +54,5 @@ div.col-md-6 {
 }
 
 .top-header img {
-    width: 60px;
+    width: 100px;
 }
